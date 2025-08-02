@@ -415,7 +415,9 @@ var	shand	oldquit;	/* Previous SIGQUIT handler */
 var	shand	oldxfsz;	/* Previous SIGXFSZ handler */
 #endif
 var	short	oprompt;	/* Saved during source */
+#if 0
 extern	unsigned short	ospeed;		/* Output speed (from gtty) */
+#endif
 var	int	otchng;		/* Backup tchng to find changes in macros */
 var	int	peekc;		/* Peek ahead character (cmd mode input) */
 var	char	*pkill[2];	/* Trim for put with ragged (LISP) delete */

@@ -74,7 +74,10 @@
  *
  *	Sccsid @(#)ex_tty.h	1.14 (gritter) 8/4/05
  */
-#include "libterm/libterm.h"
+#include <termcap.h>
+#ifndef TCBUFSIZE
+#define TCBUFSIZE 1024
+#endif
 
 /*
  * Capabilities from termcap
